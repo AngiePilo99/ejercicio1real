@@ -10,3 +10,8 @@ npm install express
 
 compilar para comprobar funcion
 node server.js
+
+instalar paqiete mongooes
+npm i mongooes
+
+comprobar pruebas de conectividad con postman

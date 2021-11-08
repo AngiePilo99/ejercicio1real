@@ -16,6 +16,17 @@ router.get('/',(req, res) => {
     res.send("Este es el inicio del programa VAMOS POR PAPITAS STEVE")
 })
 
+
+//Consultar todos
+router.get('/Usuario',(req, res) =>{
+    UsuarioSchema.find(function(err,datos){
+    if(err){
+        console.log("Error al leer usuario");
+    }else{
+        res.send(datos)
+    }
+    })
+})
 router.post('/Usuario',(req, res) =>{
     let nuevoUsuario = new UsuarioSchema({  
     idUsuario: req.body.id,
