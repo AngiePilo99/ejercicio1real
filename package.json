@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio1real",
+  "version": "1.0.0",
+  "description": "version 2 ejercicio 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
